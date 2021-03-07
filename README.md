@@ -5,5 +5,7 @@ Cyber security is a big problem in today's world. From hackers to foreign govern
 
 ## Installation
 - You will be prompted to select how many characters you would like your password to be when you click the "Generate Password" button
+https://www.screencast.com/t/79rKpesSXo
 - From there you will need to select what you would like in your password by selecting the prompts that popup
 - After answering the popup prompts, the randomized password will display in the password section
+https://www.screencast.com/t/Wg586kNCt
