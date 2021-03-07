@@ -20,7 +20,7 @@ document.querySelector('#generate').addEventListener('click', () => {
   var password = [];
 
   // First prompt where the user enters their password length
-  var passwordLength = parseInt(prompt("How long would you like your password to be?"));
+  var passwordLength = parseInt(prompt("Tyler, How long would you like your password to be?"));
 
   // This alert will trigger if the password length is less than 8 or more than 128
   if (passwordLength < 8 || passwordLength > 128) {
@@ -36,11 +36,11 @@ document.querySelector('#generate').addEventListener('click', () => {
   // If the password length is within the boundaries, the prompts below will fire
   } else if (passwordLength >= 8 || passwordLength <= 128) {
     
-    var useUppercase = confirm("Would you like uppercase letters?");
+    var useUppercase = confirm("Tyler, Would you like uppercase letters?");
 
-    var useNumbers = confirm("Would you like numbers?");
+    var useNumbers = confirm("Tyler, Would you like numbers?");
 
-    var useSpecialChar = confirm("Would you like special characters?");
+    var useSpecialChar = confirm("Tyler, Would you like special characters?");
 
     var useLowercase = true
 
